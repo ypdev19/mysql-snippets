@@ -39,9 +39,13 @@ Suppose you have a table called `logins` with a column `user_id`:
 
 The following query will count how many times each `user_id` occurs:
 
+*/
+
 SELECT user_id, COUNT(*) AS occurrences
 FROM logins
 GROUP BY user_id;
+
+/*
 
 Expected Output:
 +----------+-------------+
