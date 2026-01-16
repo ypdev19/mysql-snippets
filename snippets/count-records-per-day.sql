@@ -10,6 +10,13 @@ and years.
 ===============================================================================
 */
 
+
+SELECT DATE(order_date) AS thedate,
+       COUNT(*) AS count
+FROM sales_orders
+GROUP BY thedate
+ORDER BY thedate ASC;
+
 /*
 Query Explanation:
 ------------------
@@ -20,12 +27,6 @@ Query Explanation:
 - Safe across months and years; no risk of merging different months with 
   the same day number.
 */
-
-SELECT DATE(order_date) AS thedate,
-       COUNT(*) AS count
-FROM sales_orders
-GROUP BY thedate
-ORDER BY thedate ASC;
 
 /*
 ===============================================================================
@@ -62,6 +63,8 @@ INSERT INTO sales_orders (customer_name, order_date) VALUES
 /*
 
 Query Result:
+-----------------------------------------
+
 -------------
 thedate     | count
 ----------- | -----
