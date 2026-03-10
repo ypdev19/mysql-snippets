@@ -1,7 +1,6 @@
 /*
 ===============================================================================
 Snippet Name: Daily Sales Aggregation Using DATE()
-Slug: daily-sales-aggregation.sql
 -------------------------------------------------------------------------------
 Description:
 This snippet demonstrates how to aggregate sales records by calendar day in 
@@ -10,7 +9,6 @@ and a dynamic query for the last 7 days. Using DATE() ensures correct daily
 totals across multiple months or years, unlike DAYOFMONTH().
 ===============================================================================
 */
-
 
 -- Query to count sales per day in a fixed date range (Sep 17 to Sep 18, 2024)
 SELECT DATE(`date`) AS sale_date,
