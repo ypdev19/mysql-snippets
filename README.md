@@ -8,11 +8,14 @@ A collection of **useful MySQL code snippets** developed and collected over my c
 * Share practical solutions with the community.
 
 ## Index
-- [Count by date range](./snippets/count-by-date-range.sql)
-- [Count records per day](./snippets/count-records-per-day.sql)
-- [Count occurrences](./snippets/count-occurrences.sql)
-- [Compare records in two tables](./snippets/compare-records-in-two-tables.sql)
-- [DAYOFMONTH function use case](./snippets/dayofmonth-function.sql)
+
+* [Count by Date Range](./snippets/count-by-date-range.sql)
+* [Count Records per Day](./snippets/count-records-per-day.sql)
+* [Count Occurrences of Distinct Values in a Column](./snippets/count-occurrences.sql)
+* [Find records that exist only in one table (anti-join)](./snippets/compare-records-in-two-tables.sql)
+* [DAYOFMONTH() function - Use case with example](./snippets/dayofmonth-function.sql)
+* [Conditional Aggregation](./snippets/conditional-aggregation.sql)
+* [Daily Aggregation with Conditional](./snippets/daily-conditional-aggregation.sql)
 
 *I will keep sharing more snippets over time!*
 
