@@ -38,12 +38,14 @@ Contributions are welcome!
    ```bash
    git checkout -b snippet-name
    ```
+
 2. Add your `.sql` file to the `/snippets` folder.
 3. Commit your changes:
 
    ```bash
    git commit -m "Add snippet for XYZ"
    ```
+
 4. Push your branch and open a Pull Request.
 
 **Best practices for snippets:**
