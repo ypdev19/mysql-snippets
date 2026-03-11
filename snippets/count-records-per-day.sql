@@ -1,6 +1,6 @@
 /*
 ===============================================================================
-Snippet Name: Count records per day -- Safe Daily Aggregation Using DATE()
+Snippet Name: Count Records per Day -- Safe Daily Aggregation Using DATE()
 -------------------------------------------------------------------------------
 Description:
 This snippet demonstrates how to safely aggregate records by calendar day in 

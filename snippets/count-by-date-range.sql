@@ -1,6 +1,6 @@
 /*
 ===============================================================================
-Snippet Name: Daily Sales Aggregation Using DATE()
+Snippet Name: Daily Sales Aggregation Using DATE() (Count By Date Range)
 -------------------------------------------------------------------------------
 Description:
 This snippet demonstrates how to aggregate sales records by calendar day in 

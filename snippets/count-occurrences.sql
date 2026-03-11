@@ -1,6 +1,6 @@
 /*
 ===============================================================================
-Snippet Name: Count occurrences of distinct values in a column
+Snippet Name: Count Occurrences of Distinct Values in a Column
 -------------------------------------------------------------------------------
 Description:
 Counts how many times each unique value appears in a specific column 
