@@ -9,15 +9,26 @@ A collection of **useful MySQL code snippets** developed and collected over my c
 
 ## Index
 
-* [Count by Date Range](./snippets/count-by-date-range.sql)
-* [Count Records per Day](./snippets/count-records-per-day.sql)
+### Snippets
+
 * [Count Occurrences of Distinct Values in a Column](./snippets/count-occurrences.sql)
 * [Find records that exist only in one table (anti-join)](./snippets/compare-records-in-two-tables.sql)
-* [DAYOFMONTH() function - Use case with example](./snippets/dayofmonth-function.sql)
 * [Conditional Aggregation](./snippets/conditional-aggregation.sql)
-* [Daily Aggregation with Conditional](./snippets/daily-conditional-aggregation.sql)
+* date/
+  * [Age from Birth Date](./snippets/date/age-from-birth-date.sql)
+  * [Days since Date](./snippets/date/days-since-date.sql)
+  * [Days until Date](./snippets/date/days-until-date.sql)
+  * [DAYOFMONTH() function - Use case with example](./snippets/dayofmonth-function.sql)
+  * [Count by Date Range](./snippets/count-by-date-range.sql)
+  * [Count Records per Day](./snippets/count-records-per-day.sql)
+  * [Daily Aggregation with Conditional](./snippets/daily-conditional-aggregation.sql)
+* schema_changes/
+  * [Table Column Operations](./snippets/schema_changes/table-column-operations.sql)
+  * [Table Index Operations](./snippets/schema_changes/table-index-operations.sql)
 
-*I will keep sharing more snippets over time!*
+### Tips
+
+[You can find DB general tips and Mysql tips here](./tips)
 
 ## 🗂 Repository Structure
 
