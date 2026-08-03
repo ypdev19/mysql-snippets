@@ -1,21 +1,15 @@
 # General DB Tips
 
-## Database Indexation
+## Database Indexing
 
-- Un index de base de datos es un tipo de estructura de dato (como un array o un hash)
-
-- La indexacion en base de datos representa una manera de organizar toda la data
-
-- Se indexa un campo para hacerlo m�s r�pido que los dem�s
-
-- No es conveniente indexar todos los campos de una tabla
-
-- Es conveniente indexar solo los campos (datos) que se sabe que usar�n con m�s frecuencia
-
-- Los indexes en base de datos relacionales se crean por columna, se puede elegir una columna o una combinacion de columnas para crear el index
-
-- En las NoSQL base de datos la indexacion varia de acuerdo al tipo de la DB
+* A database index is a type of data structure (like an array or a hash)
+* Database indexing represents a way of organizing all the data
+* A field is indexed to make searching/accessing it faster than the others
+* It is not advisable to index all fields in a table
+* It is best to index only the fields (data) that you know will be used most frequently
+* Indexes in relational databases are created per column; you can choose a single column or a combination of columns to create the index
+* In NoSQL databases, indexing varies depending on the type of DB
 
 ## General
 
-- GROUP BY no es una forma de mostrar la data en grupos, sino una forma de analizar la data en grupos
+* `GROUP BY` is not a way to display data in groups, but rather a way to analyze data in groups.
