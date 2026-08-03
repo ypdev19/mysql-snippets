@@ -48,7 +48,7 @@ day_of_month | records
 ------------ | -------
 15           | 2   -- combines Sept 15 and Oct 15, which may be misleading
 
-⚠️ Note: This snippet is meant for educational purposes to show how 
+Note: This snippet is meant for educational purposes to show how 
 DAYOFMONTH() works and its limitations. For accurate daily totals over multiple 
 months/years, use the safer approach in `count-records-per-day.sql`.
 

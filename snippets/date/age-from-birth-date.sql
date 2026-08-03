@@ -1,5 +1,4 @@
 -- Calculate age in years
--- Use case: profiles, demographics
 
 SELECT 
   name,
